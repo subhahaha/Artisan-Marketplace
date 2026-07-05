@@ -1,11 +1,11 @@
-# Kaarigar Bazaar
+# Artisan MarketPlace
 
 A multi-vendor marketplace for handmade goods from local Nepali artisans — pottery, textiles, jewelry, woodwork, and paper craft. Built as a portfolio project to demonstrate practical React skills beyond a basic shopping-cart clone: state management, form validation, authentication-gated routes, and a real client-server data flow.
 
 **[Live demo →](#)** *(add your deployed link here once live)*
 
-![Homepage screenshot](docs/screenshot-home.png)
-*(add a screenshot here — see "Adding screenshots" below)*
+![Homepage screenshot](![alt text](image.png))
+
 
 ## Why this project
 
