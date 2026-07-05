@@ -2,7 +2,7 @@
 
 A multi-vendor marketplace for handmade goods from local Nepali artisans — pottery, textiles, jewelry, woodwork, and paper craft. Built as a portfolio project to demonstrate practical React skills beyond a basic shopping-cart clone: state management, form validation, authentication-gated routes, and a real client-server data flow.
 
-**[Live demo →](#)** *(add your deployed link here once live)*
+** https://artisan-marketplace-git-main-svbha.vercel.app/
 
 ![Homepage screenshot](![alt text](image.png))
 
@@ -85,7 +85,6 @@ Password: password123
 
 ## Known limitations
 
-Being upfront about these is more useful than hiding them:
 
 - **Authentication is mock-only** — credentials are hardcoded client-side, not a real auth system. Fine for a demo, not production-ready.
 - **Sales stats are simulated** — there's no real order pipeline generating revenue data, so the dashboard chart uses seeded (but deterministic, not random-every-refresh) placeholder numbers. The UI labels this explicitly.
@@ -99,6 +98,3 @@ Being upfront about these is more useful than hiding them:
 - Image upload instead of pasting a URL for new listings
 - Order history tied to a real backend
 
-## Adding screenshots
-
-Create a `docs/` folder in the project root, add screenshots there (e.g. `docs/screenshot-home.png`, `docs/screenshot-dashboard.png`), and reference them in this README with `![alt text](docs/filename.png)`.
