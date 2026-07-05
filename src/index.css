@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-display: "Fraunces", serif;
+  --font-body: "Work Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --color-plum: #3D2645;
+  --color-plum-light: #5A3B66;
+  --color-gold: #D9A441;
+  --color-gold-light: #E8C077;
+  --color-sage: #8A9A5B;
+  --color-sage-light: #A8B77E;
+  --color-paper: #FAF6EF;
+  --color-paper-dark: #F0E9DA;
+  --color-ink: #232323;
+  --color-ink-soft: #5C5650;
+}
+
+html, body, #root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+/* stitched border signature detail, used sparingly on hover */
+.stitch-border {
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--color-gold) 0,
+    var(--color-gold) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 12px 2px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}

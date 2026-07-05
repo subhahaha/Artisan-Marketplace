@@ -1,0 +1,143 @@
+export const categories = [
+  "All",
+  "Pottery",
+  "Textiles",
+  "Jewelry",
+  "Woodwork",
+  "Paper Craft",
+];
+
+export const products = [
+  {
+    id: 1,
+    name: "Hand-thrown Terracotta Vase",
+    category: "Pottery",
+    price: 1450,
+    seller: "Bhaktapur Clay Works",
+    image: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=600",
+    description:
+      "Wheel-thrown terracotta vase fired in a traditional wood kiln. Each piece has slight variations in glaze — no two are identical.",
+    stock: 8,
+  },
+  {
+    id: 2,
+    name: "Dhaka Weave Table Runner",
+    category: "Textiles",
+    price: 980,
+    seller: "Damauli Handlooms",
+    image: "https://picsum.photos/seed/dhaka-runner/600/750",
+    description:
+      "Handwoven cotton table runner using the traditional dhaka pattern, made on a pit loom.",
+    stock: 15,
+  },
+  {
+    id: 3,
+    name: "Silver Filigree Earrings",
+    category: "Jewelry",
+    price: 2200,
+    seller: "Patan Silver Studio",
+    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600",
+    description:
+      "Fine silver filigree earrings, hand-soldered using a technique passed down through three generations of Patan silversmiths.",
+    stock: 5,
+  },
+  {
+    id: 4,
+    name: "Walnut Wood Chess Set",
+    category: "Woodwork",
+    price: 3800,
+    seller: "Bajhang Woodcraft",
+    image: "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=600",
+    description:
+      "Hand-carved walnut wood chess set with a folding board. Weighted pieces, felt-lined base.",
+    stock: 4,
+  },
+  {
+    id: 5,
+    name: "Lokta Paper Journal",
+    category: "Paper Craft",
+    price: 420,
+    seller: "Bhaktapur Lokta Collective",
+    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600",
+    description:
+      "Hand-bound journal made from lokta bark paper, naturally insect-resistant and traditionally used for centuries-old manuscripts.",
+    stock: 22,
+  },
+  {
+    id: 6,
+    name: "Glazed Ceramic Tea Set",
+    category: "Pottery",
+    price: 2650,
+    seller: "Thimi Pottery House",
+    image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600",
+    description:
+      "Four-cup ceramic tea set with hand-painted indigo glaze detailing, fired twice for durability.",
+    stock: 6,
+  },
+  {
+    id: 7,
+    name: "Hemp Fiber Shoulder Bag",
+    category: "Textiles",
+    price: 1150,
+    seller: "Sindhupalchok Hemp Co-op",
+    image: "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600",
+    description:
+      "Woven hemp fiber bag with leather strap. Naturally durable and biodegradable material sourced from local hill farms.",
+    stock: 11,
+  },
+  {
+    id: 8,
+    name: "Turquoise Pendant Necklace",
+    category: "Jewelry",
+    price: 1680,
+    seller: "Patan Silver Studio",
+    image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600",
+    description:
+      "Sterling silver pendant set with a raw-cut turquoise stone, on an adjustable chain.",
+    stock: 9,
+  },
+  {
+    id: 9,
+    name: "Carved Wooden Mask",
+    category: "Woodwork",
+    price: 2900,
+    seller: "Bhaktapur Wood Studio",
+    image: "https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?w=600",
+    description:
+      "Decorative wall mask hand-carved from sal wood, inspired by traditional Newari architectural motifs.",
+    stock: 3,
+  },
+  {
+    id: 10,
+    name: "Lokta Paper Lantern Set",
+    category: "Paper Craft",
+    price: 650,
+    seller: "Bhaktapur Lokta Collective",
+    image: "https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?w=600",
+    description:
+      "Set of three folding lanterns made from dyed lokta paper over a bamboo frame. LED-safe, not for open flame.",
+    stock: 18,
+  },
+  {
+    id: 11,
+    name: "Block-Printed Cotton Scarf",
+    category: "Textiles",
+    price: 750,
+    seller: "Damauli Handlooms",
+    image: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600",
+    description:
+      "Hand block-printed cotton scarf using natural dyes and hand-carved wooden printing blocks.",
+    stock: 20,
+  },
+  {
+    id: 12,
+    name: "Stoneware Dinner Bowls (Set of 4)",
+    category: "Pottery",
+    price: 1900,
+    seller: "Thimi Pottery House",
+    image: "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=600",
+    description:
+      "Set of four stoneware bowls with a matte reactive glaze finish. Microwave and dishwasher safe.",
+    stock: 10,
+  },
+];
