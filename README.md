@@ -2,14 +2,15 @@
 
 A multi-vendor marketplace for handmade goods from local Nepali artisans — pottery, textiles, jewelry, woodwork, and paper craft. Built as a portfolio project to demonstrate practical React skills beyond a basic shopping-cart clone: state management, form validation, authentication-gated routes, and a real client-server data flow.
 
-** https://artisan-marketplace-git-main-svbha.vercel.app/
+**Live Demo: https://artisan-marketplace-lime.vercel.app/
+Note: the backend may take ~30 seconds to wake up on first load if it's been idle
 
 ![Homepage screenshot](![alt text](image.png))
 
 
-## Why this project
+## Description
 
-Most beginner e-commerce projects are single-vendor and read from static, hardcoded data. This one is a **multi-vendor marketplace**: buyers browse and check out as usual, but sellers can log in, list their own products, and see basic sales stats — closer to how a real platform like Etsy is structured, and a better showcase of CRUD, auth-gated routing, and derived state than a typical single-store demo.
+Kaarigar Bazaar is a full-stack marketplace where buyers can browse and purchase handmade products, and sellers can log in to list, edit, and manage their own inventory — closer to how a real multi-vendor platform (like Etsy) works, rather than a single-store shopping-cart demo. It's built with a real client-server architecture: a React frontend talks to a REST API backend, with proper loading states, error handling, and form validation throughout.
 
 ## Features
 
