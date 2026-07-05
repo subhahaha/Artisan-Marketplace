@@ -1,4 +1,7 @@
-const BASE_URL = "http://localhost:3001";
+// Falls back to localhost for local development. Once deployed, set
+// VITE_API_URL in your hosting provider's environment variables to point
+// at the deployed backend instead.
+const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
 
 async function handleResponse(res) {
   if (!res.ok) {
