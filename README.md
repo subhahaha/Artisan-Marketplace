@@ -3,9 +3,9 @@
 A multi-vendor marketplace for handmade goods from local Nepali artisans — pottery, textiles, jewelry, woodwork, and paper craft. Built as a portfolio project to demonstrate practical React skills beyond a basic shopping-cart clone: state management, form validation, authentication-gated routes, and a real client-server data flow.
 
 **Live Demo: https://artisan-marketplace-lime.vercel.app/
-Note: the backend may take ~30 seconds to wake up on first load if it's been idle
+Note: the backend may take 30 seconds to wake up on first load if it's been idle.
 
-![Homepage screenshot](![alt text](image.png))
+![Homepage screenshot]((image.png))
 
 
 ## Description
@@ -90,7 +90,7 @@ Password: password123
 - **Authentication is mock-only** — credentials are hardcoded client-side, not a real auth system. Fine for a demo, not production-ready.
 - **Sales stats are simulated** — there's no real order pipeline generating revenue data, so the dashboard chart uses seeded (but deterministic, not random-every-refresh) placeholder numbers. The UI labels this explicitly.
 - **Checkout doesn't process real payment** — it validates and submits a mock order, then clears the cart.
-- **json-server is a development stand-in**, not a production database — good enough to demonstrate a real client-server split (loading states, error handling, cache invalidation), but a production version would swap this for a proper backend (e.g. FastAPI, which I've used in other projects).
+- **json-server is a development stand-in**, not a production database good enough to demonstrate a real client-server split (loading states, error handling, cache invalidation), but a production version would swap this for a proper backend (e.g. FastAPI, which I've used in other projects).
 
 ## Possible next steps
 
