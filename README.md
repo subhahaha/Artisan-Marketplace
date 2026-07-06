@@ -5,7 +5,7 @@ A multi-vendor marketplace for handmade goods from local Nepali artisans — pot
 **Live Demo: https://artisan-marketplace-lime.vercel.app/
 Note: the backend may take 30 seconds to wake up on first load if it's been idle.
 
-![Homepage screenshot]((image.png))
+![Homepage screenshot](![alt text](image.png))
 
 
 ## Description
