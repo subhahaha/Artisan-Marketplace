@@ -3,6 +3,7 @@
 A multi-vendor marketplace for handmade goods from local Nepali artisans — pottery, textiles, jewelry, woodwork, and paper craft. Built as a portfolio project to demonstrate practical React skills beyond a basic shopping-cart clone: state management, form validation, authentication-gated routes, and a real client-server data flow.
 
 **Live Demo: https://artisan-marketplace-lime.vercel.app/
+
 Note: the backend may take 30 seconds to wake up on first load if it's been idle.
 
 ![Homepage screenshot](![alt text](image.png))
@@ -10,7 +11,7 @@ Note: the backend may take 30 seconds to wake up on first load if it's been idle
 
 ## Description
 
-Kaarigar Bazaar is a full-stack marketplace where buyers can browse and purchase handmade products, and sellers can log in to list, edit, and manage their own inventory — closer to how a real multi-vendor platform (like Etsy) works, rather than a single-store shopping-cart demo. It's built with a real client-server architecture: a React frontend talks to a REST API backend, with proper loading states, error handling, and form validation throughout.
+Kaarigar Bazaar is a marketplace where buyers can browse and purchase handmade products, and sellers can log in to list, edit, and manage their own inventory, closer to how a real multi-vendor platform works. It's built with a real client-server architecture: a React frontend talks to a REST API backend, with proper loading states, error handling, and form validation throughout.
 
 ## Features
 
@@ -60,8 +61,8 @@ kaarigar-bazaar/
 Requires Node.js 18+.
 
 ```bash
-git clone <your-repo-url>
-cd kaarigar-bazaar
+git clone https://github.com/subhahaha/Artisan-Marketplace.git
+cd Artisan-Marketplace
 npm install
 ```
 
@@ -77,7 +78,7 @@ npm run dev          # http://localhost:5173
 
 ## Demo credentials
 
-The seller dashboard is gated by a mock login (no real backend auth — just enough to demonstrate protected routes):
+The seller dashboard is gated by a mock login (no real backend auth just enough to demonstrate protected routes):
 
 ```
 Email:    seller@kaarigar.com
@@ -87,10 +88,10 @@ Password: password123
 ## Known limitations
 
 
-- **Authentication is mock-only** — credentials are hardcoded client-side, not a real auth system. Fine for a demo, not production-ready.
-- **Sales stats are simulated** — there's no real order pipeline generating revenue data, so the dashboard chart uses seeded (but deterministic, not random-every-refresh) placeholder numbers. The UI labels this explicitly.
-- **Checkout doesn't process real payment** — it validates and submits a mock order, then clears the cart.
-- **json-server is a development stand-in**, not a production database good enough to demonstrate a real client-server split (loading states, error handling, cache invalidation), but a production version would swap this for a proper backend (e.g. FastAPI, which I've used in other projects).
+- **Authentication is mock-only** credentials are hardcoded client-side, not a real auth system. Fine for a demo, not production-ready.
+- **Sales stats are simulated**  there's no real order pipeline generating revenue data, so the dashboard chart uses seeded (but deterministic, not random-every-refresh) placeholder numbers. The UI labels this explicitly.
+- **Checkout doesn't process real payment** it validates and submits a mock order, then clears the cart.
+- **Json-server is a development stand-in**, not a production database good enough to demonstrate a real client-server split (loading states, error handling, cache invalidation), but a production version would swap this for a proper backend (e.g. FastAPI, which I've used in other projects).
 
 ## Possible next steps
 
